@@ -110,9 +110,9 @@ function RegisterPage() {
                     </form>
                 </CardContent>
                 <CardFooter className="flex flex-col gap-3">
-                    <div className="flex items-center gap-1">
-                        <p>Already Have Account?</p>
-                        <Link href={'/login'}>Login</Link>
+                    <div className="flex items-center gap-1 text-sm text-neutral-600 dark:text-neutral-400">
+                        <p>Already have an account?</p>
+                        <Link href="/login">Login</Link>
                     </div>
                 </CardFooter>
             </Card>

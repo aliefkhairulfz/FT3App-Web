@@ -11,8 +11,8 @@ import { toast } from 'sonner';
 
 function LoginPage() {
     const [input, setInput] = useState({
-        email: 'aliefkhairulfz@gmail.com',
-        password: 'poolsetools_009',
+        email: '',
+        password: '',
         providerId: 'credentials',
         isLoading: false,
     });
@@ -103,9 +103,7 @@ function LoginPage() {
                 <CardFooter className="flex flex-col gap-3">
                     <div className="flex items-center gap-1 text-sm text-neutral-600 dark:text-neutral-400">
                         <p>Don&apos;t have an account?</p>
-                        <Link href="/register" className="font-medium text-blue-600 hover:underline dark:text-blue-400">
-                            Register
-                        </Link>
+                        <Link href="/register">Register</Link>
                     </div>
                 </CardFooter>
             </Card>
